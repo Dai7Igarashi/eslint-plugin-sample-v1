@@ -1,0 +1,8 @@
+# libs
+node_modules/
+
+# cache
+.turbo/
+
+# misc
+.DS_Store
