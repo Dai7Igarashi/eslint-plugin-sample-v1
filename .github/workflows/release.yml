@@ -41,7 +41,7 @@ jobs:
             **/package-lock.json
           key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}-v1
       - name: Install
-        run: npm ci
+        run: npm install
       - name: Build
         run: npm run build
       - name: publish
