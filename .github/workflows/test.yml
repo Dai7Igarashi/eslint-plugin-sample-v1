@@ -23,5 +23,5 @@ jobs:
             **/node_modules
             **/package-lock.json
           key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}-v1
-      - run: npm ci
+      - run: npm install
       - run: npm run test
